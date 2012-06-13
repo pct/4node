@@ -20,11 +20,10 @@ exports.config =
       joinTo: 'stylesheets/app.css'
       order:
         before: [
-            'vendor/styles/normalize.css',
             'vendor/styles/bootstrap.css',
             'vendor/styles/bootstrap-responsive.css'
         ]
-        after: ['vendor/styles/helpers.css']
+        after: []
 
     templates:
       defaultExtension: 'hbs'
